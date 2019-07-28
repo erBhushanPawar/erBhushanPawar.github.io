@@ -54,6 +54,12 @@ body
 	background: #f7f7f7;
 	color: #a5a5a5;
 }
+
+.b-agent-demo .server-response {
+    
+ background-color: #8d6542 !important;
+}
+
 div
 {
 	display: block;

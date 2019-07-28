@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
   <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
   <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+  
 </head>
 
 <body>
@@ -74,6 +75,7 @@
           <li><a href="https://www.youtube.com/channel/UCpFgD7yT2nLItjz_7ra7XEA/featured">Youtube</a>
           </li>
           <li><a href="#">Work</a></li>
+          <li><a id="bbot" href="#">Chat with BBot</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -342,6 +344,21 @@
 
     <div class="page_content">
       <div class="container">
+        <iframe id="dialogflow-iframe" style="position: fixed; display:none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;" width="350" height="330" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/8535a13c-ec36-4fc9-aeb7-ce5134c3551c"></iframe>
+        <div id="dialogflow-trigger-container" style="position: fixed;
+                    bottom: 0;
+                    right: 15px;
+                    
+                    z-index: 9;"
+              class="section_tags ml-auto">
+          <ul>
+            <li><a id="dialogflow-trigger" href="#">Chat with Bbot</a></li>
+          </ul>
+        </div>
         <div class="row row-lg-eq-height">
 
           <!-- Main Content -->
@@ -1435,6 +1452,7 @@
           </div>
 
         </div>
+       
       </div>
     </div>
 
@@ -1499,6 +1517,40 @@
   <script src="plugins/masonry/masonry.js"></script>
   <script src="plugins/masonry/images_loaded.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+
+    var trigger = document.getElementById('dialogflow-trigger')
+    var container = document.getElementById('dialogflow-trigger-container')
+    var frame = document.getElementById('dialogflow-iframe')
+    isShown = false;
+    
+    
+    var clickHandler = function(){
+      if(!isShown){
+        frame.style.display = 'block'
+        if(window.innerWidth<600){
+          frame.style.height = '80%'
+          
+        }
+        container.style.bottom = '300px'
+        container.style.right = '-55px'
+        trigger.text = 'close'
+        isShown = true;
+      }else{
+        frame.style.display = 'none'
+        container.style.bottom = '0'
+        container.style.right = '15px'
+        trigger.text = 'Chat with BBot'
+        isShown = false;
+      }
+    }
+    trigger.onclick= clickHandler
+
+    var bbot = document.getElementById('bbot')
+    bbot.onclick = clickHandler
+    
+   
+  </script>
 </body>
 
 </html>
