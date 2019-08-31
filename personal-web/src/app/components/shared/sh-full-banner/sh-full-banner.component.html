@@ -1,0 +1,21 @@
+<div class="home">
+  <div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8">
+    <img [src]="banner.image || banner.imageUrl">
+  </div>
+  <div class="overlay"></div>
+  <div class="home_content">
+    <div class="post_category trans_200">
+
+      <a *ngFor="let c of banner.category" [href]="c" class="trans_200">{{c}}</a>
+    </div>
+
+
+    <a [routerLink]='banner.routerLink' style="color:white" class="post_title">{{banner.title}}</a>
+    <div class="post_author d-flex flex-row align-items-center justify-content-center">
+      <div class="author_image">
+        <div><img [src]="banner.author.thumbnail" alt=""></div>
+      </div>
+      <div class="post_meta"><a href="#">{{banner.author.name}}</a><span>{{banner.date}}</span></div>
+    </div>
+  </div>
+</div>

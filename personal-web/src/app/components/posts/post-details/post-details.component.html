@@ -1,0 +1,41 @@
+<sh-full-banner [banner]="post"></sh-full-banner>
+
+<div class="page_content">
+  <div class="container">
+    <div class="row">
+
+      <div class="post_content">
+
+        <!-- Post Body -->
+
+        <div class="post_body">
+          <!-- Post Content -->
+          <ng-template ngFor [ngForOf]="post.contents" let-item>
+            <p class="post_p" *ngIf="item.type === 'para'" [innerHTML]="item.innerHTML"></p>
+            <code class="post_p" *ngIf="item.type === 'code'" [innerHTML]="item.innerHTML"></code>
+            <div class="post_quote" *ngIf="item.type === 'block-quote'">
+              <blockquote class="post_p" [innerHTML]="item.innerHTML"></blockquote>
+            </div>
+
+          </ng-template>
+          <div class="tags_share d-flex flex-row align-items-center justify-content-start">
+            <div class="post_tags">
+              <ul>
+                <li *ngFor="let t of post?.tags" class="post_tag"><a href="#">{{t}}</a></li>
+              </ul>
+            </div>
+            <div class="post_share ml-sm-auto">
+              <span>share</span>
+              <ul class="post_share_list">
+                <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="post_share_item"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-comments [postDetails]="post"></app-comments>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="col-lg-6 offset-lg-3">
+
+    <!-- Post Comment -->
+    <div class="post_comment">
+      <div class="post_comment_title">Post Comment</div>
+      <div class="post_comment_form_container">
+        <div>
+          <input type="text" [(ngModel)]="comment.name" class="comment_input comment_input_name" placeholder="Your Name"
+            required="required">
+          <input type="email" [(ngModel)]="comment.email" class="comment_input comment_input_email"
+            placeholder="Your Email" required="required">
+          <textarea class="comment_text" [(ngModel)]="comment.commentText" placeholder="Your Comment"
+            required="required"></textarea>
+          <button type="button" (click)="postComment()" class="comment_button">Post Comment</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comments -->
+    <div class="comments">
+      <div class="comments_title">Comments <span>({{oldComments?.length || 0}})</span></div>
+      <div class="comments_container">
+        <ul class="comment_list">
+          <li *ngFor="let c of oldComments" class="comment">
+            <div class="comment_body">
+              <div class="comment_panel d-flex flex-row align-items-center justify-content-start">
+                <div *ngIf="true" class="comment_author_image">
+                  <div><img [src]="postDetails?.author?.thumbnail" alt=""></div>
+                </div>
+                <small class="post_meta"><a href="#">{{c.name}}</a><span>{{c.postedOn | date}}</span></small>
+                <button type="button" class="reply_button ml-auto">Reply</button>
+              </div>
+              <div class="comment_content">
+                <p>{{c.commentText}}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div *ngIf="false" class="load_more">
+      <div id="load_more" class="load_more_button text-center trans_200">Load More</div>
+    </div>
+  </div>
+</div>

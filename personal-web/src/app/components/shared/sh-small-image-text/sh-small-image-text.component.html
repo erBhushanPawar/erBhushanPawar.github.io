@@ -1,0 +1,12 @@
+  <div class="card card_small_with_image grid-item">
+    <img class="card-img-top" [src]="card.imageUrl">
+    <div class="card-body">
+      <div class="card-title card-title-small"><a target="__blank"
+          [routerLink]="card.routerLink">
+          {{card.title}}</a></div>
+      <small class="post_meta"><a href="#">{{card.author.name}}</a><span>{{card.date}}</span></small>
+    </div>
+  </div>
+
+
+                  

@@ -1,0 +1,7 @@
+<ng-template ngFor [ngForOf]="cardsData" let-card>
+  <sh-full-image-card *ngIf="card.type === 'FULL_IMAGE'" [card]="card"></sh-full-image-card>
+  <sh-small-image-text *ngIf="card.type === 'SMALL_IMAGE_TEXT'" [card]="card"></sh-small-image-text>
+  <sh-image-overlay *ngIf="card.type === 'IMAGE_OVERLAY'" [card]="card"></sh-image-overlay>
+  <sh-full-image-overlay *ngIf="card.type === 'FULL_IMAGE_OVERLAY'" [card]="card"></sh-full-image-overlay>
+  <sh-text-post *ngIf="card.type === 'TEXT_POST'" [card]="card"></sh-text-post>
+</ng-template>

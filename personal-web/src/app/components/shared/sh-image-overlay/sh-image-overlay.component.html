@@ -1,0 +1,9 @@
+<div class="card card_default card_small_with_background grid-item">
+  <div class="card_background" [style.background-image]="'url(' + card.imageUrl + ')'">
+  </div>
+  <div class="card-body">
+    <div class="card-title card-title-small"><a [routerLink]="card.routerLink">
+        {{card.title}}</a></div>
+    <small class="post_meta"><a href="#">{{card.author.name}}</a><span>{{card.date}}</span></small>
+  </div>
+</div>
