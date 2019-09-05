@@ -13,11 +13,13 @@ export const environment = {
     facebook: 'https://facebook.com/bhushupawar'
   },
 
-  postsURL: 'http://localhost:3000/posts',
-  coursesURL: 'http://localhost:3000/courses',
-  bannerURL: 'http://localhost:3000/banner',
-  aboutURL: 'http://localhost:3000/about',
-  commentsURL: 'http://localhost:3000/comments'
+  postsURL: '/app/posts',
+  coursesURL: '/app/courses',
+  bannerURL: '/app/banner',
+  aboutURL: '/app/about',
+  commentsURL: '/app/comments',
+  serverURL: 'https://json-server.bhushan.now.sh/api/contents.js',
+  jsonBlobPath: 'https://jsonblob.com/api/jsonBlob/94b9b820-cf85-11e9-8c0d-cd2f5db51d77'
 };
 
 /*

@@ -1,3 +1,70 @@
-<video controls="controls">
-  <source src="https://drive.google.com/file/d/1xmWSq1EIf1D_0Zd3jF8MZV95WlJFJXV8/" type='video/mp4' />
-</video>
+<sh-full-banner [banner]="course"></sh-full-banner>
+
+<div class="page_content">
+  <div class="container">
+    <div class="row">
+
+      <div class="post_content">
+
+        <!-- Post Body -->
+
+        <div class="post_body">
+          <!-- Post Content -->
+          <ng-template ngFor [ngForOf]="course.contents" let-item>
+
+            <div style="text-align:center">
+              <iframe *ngIf="item.type === 'youtube'" width="808" height="455" [src]="item.youtubeLink | safe"
+                frameborderr-="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+
+            </div>
+
+            <p class="post_p" style="font-size:24px" *ngIf="item.type === 'title'" [innerHTML]="item.innerHTML"></p>
+            <p class="post_p" *ngIf="item.type === 'para'" [innerHTML]="item.innerHTML"></p>
+            <code class="post_p" *ngIf="item.type === 'code'" [innerHTML]="item.innerHTML"></code>
+            <div class="post_quote" *ngIf="item.type === 'block-quote'">
+              <blockquote class="post_p" [innerHTML]="item.innerHTML"></blockquote>
+            </div>
+
+            <div style="align-content:center" class="row">
+
+              <app-card *ngIf="item.type === 'cards'" [cardsData]="item.cards"></app-card>
+
+            </div>
+
+          </ng-template>
+          <div class="row" style="text-align:center">
+            <div class="card card_largest_with_image grid-item">
+              <img class="card-img-top" [src]="course.readyImageUrl">
+              <div class="card-body">
+                <div class="card-title"><a target="__blank" [href]="course.udemyLink">
+                    Take this course on Udemy {{course.title}}</a>
+                </div>
+                <p class="card-text">
+                  {{course.details}}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tags_share d-flex flex-row align-items-center justify-content-start">
+            <div class="post_tags">
+              <ul>
+                <li *ngFor="let t of course?.tags" class="post_tag"><a href="#">{{t}}</a></li>
+              </ul>
+            </div>
+            <div class="post_share ml-sm-auto">
+              <span>share</span>
+              <ul class="post_share_list">
+                <li class="post_share_item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="post_share_item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="post_share_item"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-comments [postDetails]="course"></app-comments>
+  </div>
+</div>

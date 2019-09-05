@@ -9,6 +9,14 @@ export class DalService {
 
   constructor(private cHTTP: CustomHttpService) { }
 
+  getFromJSON() {
+    return this.cHTTP.getReq(environment.jsonBlobPath);
+  }
+
+  saveJSONBlob(completeJSON: any) {
+    return this.cHTTP.postReq(environment.jsonBlobPath, completeJSON);
+  }
+
   getBanner() {
     return this.cHTTP.getReq(environment.bannerURL)
   }

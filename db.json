@@ -1,472 +1,684 @@
 {
-  "posts": [
-    {
-      "id": "1",
-      "imageUrl": "https://images.unsplash.com/photo-1495055154266-57bbdeada43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      "title": "BBot :Design your richmessage angular 8 chatbot with DialogFlow",
-      "routerLink": "/posts/bbot-:design-your-richmessage-angular-8-chatbot-with-dialogflow",
-      "mediumLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
-      "details": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like Google Assistant and Slack",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "26 Aug 2019",
-      "type": "FULL_IMAGE"
-    },
-    {
-      "id": "2",
-      "imageUrl": "https://miro.medium.com/max/700/1*2kMAUbRNk5AGJnsNGA-qXw.jpeg",
-      "title": "Uncountable to accountable words — game of responsibilities.",
-      "routerLink": "/posts/uncountable-to-accountable-words — game-of-responsibilities.",
-      "mediumLink": "https://medium.com/@MrBhushan/uncountable-to-accountable-words-game-of-responsibilities-7860c1567298?source=my-blog",
-      "details": "Language wouldn’t be same, emotions are equal!",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "26 Aug 2019",
-      "type": "FULL_IMAGE"
-    },
-    {
-      "id": "3",
-      "imageUrl": "assets/images/post_12.jpg",
-      "title": "Make random color matrix board with Behavior subject and CSS3 — Angular 8",
-      "routerLink": "/posts/make-random-color-matrix-board-with-behavior-subject-and-css3-—-angular-8",
-      "mediumLink": "",
-      "details": "This article covers the basics of Behavior subject and makes a satisfying random color board using CSS....",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "20 July 2019 9:48 am",
-      "type": "FULL_IMAGE"
-    },
-    {
-      "id": "4",
-      "imageUrl": "https://miro.medium.com/max/700/1*DIpg-kS0ZbdJ9XxThTp4kw.jpeg",
-      "title": "Keep an eye open, strive for best!",
-      "routerLink": "/posts/keep-an-eye-open,-strive-for-best!",
-      "mediumLink": "https://medium.com/@MrBhushan/keep-an-eye-open-strive-for-best-fe31ade1d395?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "20 July 2019 9:48 am",
-      "type": "SMALL_IMAGE_TEXT"
-    },
-    {
-      "id": "5",
-      "imageUrl": "https://miro.medium.com/max/700/1*aIIRntdw2stBWukYPGJg8Q.jpeg",
-      "title": "Letting go, the best medicine!",
-      "routerLink": "/posts/letting-go,-the-best-medicine!",
-      "category": [
-        "life lessons"
-      ],
-      "mediumLink": "https://medium.com/@MrBhushan/letting-go-the-best-medicine-4abfed7c7e1f?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "contents": [
+    "posts": [
         {
-          "type": "para",
-          "innerHTML": "<b>Let the Karma play role than start chasing for everything.</b>"
+            "id": "1",
+            "imageUrl": "https://images.unsplash.com/photo-1495055154266-57bbdeada43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+            "title": "BBot :Design your richmessage angular 8 chatbot with DialogFlow",
+            "routerLink": "/posts/bbot-:design-your-richmessage-angular-8-chatbot-with-dialogflow",
+            "mediumLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
+            "details": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like Google Assistant and Slack",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "category": [
+                "Technology"
+            ],
+            "contents": [
+                {
+                    "type": "para",
+                    "innerHTML": "I love to have a personal assistant but I dont want to pay for that 🤪; So, I made this personal intro Bot using DialogFlow. DialogFlow supports richmessage on many well-known platforms like Hangouts, Google assistant, Messanger, Slack but not on plain HTML (as of date). So I tweaked text message response (as custom payloads are not received on angular/JS clients) and parsed as custom message objects to operate like rich messages"
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "Here we support plain text messages, Images, Videos, WebUrl, Audio Url, Document Urls, Options (Chips) etc. I am also planning to embed the text-to-speech when response is sent by BBot."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "It would be great to hear from you regarding this development and how it may help you. You can also take my Udemy course which explains the procedure to design one."
+                }
+            ],
+            "date": "26 Aug 2019",
+            "type": "FULL_IMAGE"
         },
         {
-          "type": "para",
-          "innerHTML": "We face many things, randomly or planned, willingly or not hence we cannot chase everything though. If you had a fight with someone, feeling cheated or something else be an audience and let the Karma show begin. Sometimes it's amazing to see things working “without you”. And Karma will let it happen in the <b>right way</b> than <b>your way</b>."
+            "id": "2",
+            "imageUrl": "https://miro.medium.com/max/700/1*2kMAUbRNk5AGJnsNGA-qXw.jpeg",
+            "title": "Uncountable to accountable words — game of responsibilities.",
+            "routerLink": "/posts/uncountable-to-accountable-words — game-of-responsibilities.",
+            "mediumLink": "https://medium.com/@MrBhushan/uncountable-to-accountable-words-game-of-responsibilities-7860c1567298?source=my-blog",
+            "details": "Language wouldn’t be same, emotions are equal!",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "contents": [
+                {
+                    "type": "para",
+                    "innerHTML": "Uncountable to accountable words — game of responsibilities."
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "Language wouldn’t be same, emotions are equal!"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "All of us have memories which was built over billions of small things and lots of chit chats so far. A wonderful time of life where we all would love to return and live again."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Going back in time is a most demanded but yet unrealistic wish of us. I feel, words, actions and hence moments we created are at its best. Unstoppable words and stories, made us unique, a genuine personality so far and still growing with boundries."
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "Childhood was grooming us with freedom, now we are just growimg with time and responsibilities."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "That time, freedom of words, no objections, no boundries, just laughs and happiness. You was real owner of your expressions and words, yet people don’t get hurt!"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>Tied knot with purpose</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Around age of 6–8 we know the purpose or imposed purposes and we look after horizons, with self-imagined win win worlds. Our purposes are holy same as our hearts and wills but, expressions gets boundries of ‘grammer’ a small thing which makes a language. Before this time whatever we say, people try to understand even with actions."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Later your purpose bounds to a dream and your words start getting shape for these. Do you remember, well polished speeches at schools? Grammer, languages, expressions came to help ‘how to say something?’"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Most of us, may not speek in audience, we are same person who may lead 10–12 kids in many games in childhood, is language stopped us? I guess no, but boundries are emotions and feelings which stopped us and on other hand, response from audience."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>Then, Running out of words</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "All of us, someday came across this awkward moment. Choosing the right words, hence short of it. Expectations, reactions and appreciations or rejections from people put us in this struggle."
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "Emotions controls you, right words define you."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Whenever you take responsibility of anything you need to be wise enough, to add emotions and choice of right words. Is that a boundry to stop us? I believe, responsibility is just a corrected recepie of what and how."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Just to narrate further, <b>What</b> defines situations or moments, <b>how</b> summarises your deal with it. It could be anything like words, reactions or silence everything is <b>accountable</b>."
+                }
+            ],
+            "date": "26 Aug 2019",
+            "type": "FULL_IMAGE"
         },
         {
-          "type": "para",
-          "innerHTML": "Problem is not always a question on you or your abilities. Some problems dissolve with time, let them dissolve. Touching the wound every minute will not going to cure it, let it heal with time. Chasing the right things makes you a wise person, chasing everything may exhaust you in every other way."
+            "id": "3",
+            "imageUrl": "https://miro.medium.com/max/200/1*wj-N5KoVl4pI5lfTM5iACw.jpeg",
+            "title": "Make random color matrix board with Behavior subject and CSS3 — Angular 8",
+            "routerLink": "/posts/make-random-color-matrix-board-with-behavior-subject-and-css3-—-angular-8",
+            "mediumLink": "",
+            "details": "This article covers the basics of Behavior subject and makes a satisfying random color board using CSS....",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "contents": [
+                {
+                    "type": "para",
+                    "innerHTML": "This article covers the basics of Behavior subject and makes a satisfying random color board using CSS."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Behavior subjects are meant to broadcast the latest <b> state of data</b> irrespective of the time of subscription. For example"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "assume v1,v2,v3,v4 are emitted values and s1,s2,s3 are different subscribers on behavior subject bs1"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Value timeline — — — — v1 — — — -v2 — — — — — v3 — — — —"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "subscription — -s1 — — — —s2 — — — — -s3 — — — — — —"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "got value — — — — — — -S1(v1)-s2(v1) — s1,s2,s3(v2) — s1,s2,s3(v3)"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Okay, now we need a Matrix which will be used to render the board on the screen."
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "board = [[{ color: 'blue' }, { color: 'orange' }]];"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "we will have color property only to set the background color. Now we need a behavior subject with number array which emits the random row and col."
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "private bs: BehaviorSubject<number[]> = new BehaviorSubject([0, 0]);"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Let’s add a timer to publish new row and column"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "setInterval(() => { this.bs.next([ Math.round(Math.random() * 10), Math.round(Math.random() * 10) ]); }, 100); "
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Take subscription for the bs."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Then, add logic to fill your matrix"
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "function populateBoard(rowCol: number[]) { if (this.board.length <= rowCol[0] + 1) { for (let index = 0; index <= rowCol[0] + 1; index++) {  if (!this.board[index]) { this.board[index] = [{ color: null }]; } } } this.board[rowCol[0]][rowCol[1]] = { color: this.getColor() }; }"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "need a random color every time, let's get it with ES6 function"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "getColor() { return '#' + Math.floor(Math.random() * 16777215).toString(16); }"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Let’s add HTML in a <b>app.component.html</b>"
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "You can find working example here"
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "https://codesandbox.io/s/angular-zbkib"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Have fun !"
+                }
+            ],
+            "date": "20 July 2019 9:48 am",
+            "type": "FULL_IMAGE"
         },
         {
-          "type": "block-quote",
-          "innerHTML": "Feel the freedom of your decisions, because everyone does what is right — in their opinion."
+            "id": "4",
+            "imageUrl": "https://miro.medium.com/max/700/1*DIpg-kS0ZbdJ9XxThTp4kw.jpeg",
+            "title": "Keep an eye open, strive for best!",
+            "routerLink": "/posts/keep-an-eye-open,-strive-for-best!",
+            "mediumLink": "https://medium.com/@MrBhushan/keep-an-eye-open-strive-for-best-fe31ade1d395?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "date": "20 July 2019 9:48 am",
+            "type": "SMALL_IMAGE_TEXT"
         },
         {
-          "type": "para",
-          "innerHTML": "<b>Don’t drain your strengths, choose the right problems</b>"
+            "id": "5",
+            "imageUrl": "https://miro.medium.com/max/700/1*aIIRntdw2stBWukYPGJg8Q.jpeg",
+            "title": "Letting go, the best medicine!",
+            "routerLink": "/posts/letting-go,-the-best-medicine!",
+            "category": [
+                "life lessons"
+            ],
+            "mediumLink": "https://medium.com/@MrBhushan/letting-go-the-best-medicine-4abfed7c7e1f?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "contents": [
+                {
+                    "type": "para",
+                    "innerHTML": "<b>Let the Karma play role than start chasing for everything.</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "We face many things, randomly or planned, willingly or not hence we cannot chase everything though. If you had a fight with someone, feeling cheated or something else be an audience and let the Karma show begin. Sometimes it's amazing to see things working “without you”. And Karma will let it happen in the <b>right way</b> than <b>your way</b>."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Problem is not always a question on you or your abilities. Some problems dissolve with time, let them dissolve. Touching the wound every minute will not going to cure it, let it heal with time. Chasing the right things makes you a wise person, chasing everything may exhaust you in every other way."
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "Feel the freedom of your decisions, because everyone does what is right — in their opinion."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>Don’t drain your strengths, choose the right problems</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Focus what you know well, perform on that; the best writer may not sing a song. Let the other things go out of your way, it's okay! Believe me, you are strong, but not everywhere!"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Failures work as erasers, success works as pencils — hence you should try to make things work but with preparations. You should not take challenges or problems for granted, because you may be purchasing an eraser for you. Choose wisely."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>When you take it, try to make it right</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "You may not be sure of what’s next? But hard work beats talent, choose that wisely at the right place. Your efforts may make it or not, your sincerity will pay off. Pay attention to small things, advice, suggestions from others before you take a step. Some people are a good coach. And it's fine if you can’t make it right there is another solution to this problem, for sure."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>Time is more powerful than anyone here.</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "You may not be able to it now, but the time takes its own time to make it happen. You may forward your clock but the whole world has its own clocks — trust on time."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Send a thought out and let time take an action on it. And unknowingly you will realize after some time, everything is fine now. Everything settles down here either its thought or something else — some powers work for it."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "<b>You are not an actor in every film.</b>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Sit, chill, enjoy some stories or films. You are not an actor in every other story, everyone is playing alive biopic."
+                },
+                {
+                    "type": "block-quote",
+                    "innerHTML": "When you learn to watch and try to understand their biopics, you will make your biopic better either from mistakes or well played things"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Let it go!"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "When it doesn’t work after what you could do — let it go. There is something best is yet to come. Expectations may kill your happiness, and stops positive vibes."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Open your hands and ready to hug new challenges with all new hopes and aspirations. Take your medicine on time!"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "— Bhushan"
+                }
+            ],
+            "date": "15 Jun 2019",
+            "type": "SMALL_IMAGE_TEXT"
         },
         {
-          "type": "para",
-          "innerHTML": "Focus what you know well, perform on that; the best writer may not sing a song. Let the other things go out of your way, it's okay! Believe me, you are strong, but not everywhere!"
+            "id": "6",
+            "imageUrl": "https://miro.medium.com/max/700/1*8yz3hkO3ynHV2qYGARynJg.jpeg",
+            "title": "Making website HTTPS with Certbot in a minute",
+            "routerLink": "/posts/making-website-https-with-certbot-in-a-minute",
+            "mediumLink": "https://medium.com/@MrBhushan/making-website-https-with-certbot-in-a-minute-e87b0b7280e?source=my-blog",
+            "isOverlayNeeded": true,
+            "category": [
+                "SSL"
+            ],
+            "tags": [
+                "certbot",
+                "ssl",
+                "Apache",
+                "Ssl Certificate"
+            ],
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "contents": [
+                {
+                    "type": "para",
+                    "innerHTML": "SSL is becoming a mandate and we will get it ready for your domain in a minute. There are many vendors (paid and free) but it’s always tough to install it manually. Let's make it happen just with a bot, yes Certbot. Make sure you have a Linux machine to run this. Let's start and fetch the Certbot from web and setup that quickly. I have created a script for this."
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "wget -O — https://raw.githubusercontent.com/erBhushanPawar/rocking-shell/master/certbot-installer.sh"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "This script will setup required things on your machine as per Certbot documentations, <a href='https://certbot.eff.org/docs/install.html'>more details here</a>"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Now let's run this script"
+                },
+                {
+                    "type": "code",
+                    "innerHTML": "sudo sh certbot-installer.sh yourdomain.com"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Sudo is required because this script installs as root, you can also run using <b> sudo su</b>  by making yourself root, but that can be dangerous."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "This will ask a few questions to you like email just answer them."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain."
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Happy SSL to you !"
+                }
+            ],
+            "date": "20 July 2019 9:48 am",
+            "type": "SMALL_IMAGE_TEXT",
+            "similarPosts": [
+                "/posts/making-spring-boot-node-js-services-https-with-certbot-for-free"
+            ]
         },
         {
-          "type": "para",
-          "innerHTML": "Failures work as erasers, success works as pencils — hence you should try to make things work but with preparations. You should not take challenges or problems for granted, because you may be purchasing an eraser for you. Choose wisely."
+            "id": "7",
+            "imageUrl": "https://miro.medium.com/max/1000/1*oLuorn4QKBnWWC5rSKRZxQ.jpeg",
+            "title": "Making spring boot / Node JS services HTTPS with CertBot for free",
+            "routerLink": "/posts/making-spring-boot-node-js-services-https-with-certbot-for-free",
+            "mediumLink": "https://medium.com/@MrBhushan/making-services-https-with-certbot-for-free-7bfce027322e?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "category": [
+                "SSL"
+            ],
+            "tags": [
+                "certbot",
+                "ssl",
+                "Apache",
+                "Ssl Certificate"
+            ],
+            "date": "20 July 2019 9:48 am",
+            "type": "SMALL_IMAGE_TEXT"
         },
         {
-          "type": "para",
-          "innerHTML": "<b>When you take it, try to make it right</b>"
+            "id": "8",
+            "imageUrl": "https://miro.medium.com/max/700/1*bzRsnzakR7O4RMbDfEZ1sA.jpeg",
+            "title": "Setup SSMTP on Ubuntu servers with crontab",
+            "routerLink": "/posts/setup-ssmtp-on-ubuntu-servers-with-crontab",
+            "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "date": "20 July 2019 9:48 am",
+            "type": "IMAGE_OVERLAY"
         },
         {
-          "type": "para",
-          "innerHTML": "You may not be sure of what’s next? But hard work beats talent, choose that wisely at the right place. Your efforts may make it or not, your sincerity will pay off. Pay attention to small things, advice, suggestions from others before you take a step. Some people are a good coach. And it's fine if you can’t make it right there is another solution to this problem, for sure."
+            "id": "9",
+            "imageUrl": "https://miro.medium.com/max/700/1*bzRsnzakR7O4RMbDfEZ1sA.jpeg",
+            "title": "The best life artist - you!",
+            "routerLink": "/posts/the-best-life-artist---you!",
+            "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "date": "20 July 2019 9:48 am",
+            "type": "IMAGE_OVERLAY"
         },
         {
-          "type": "para",
-          "innerHTML": "<b>Time is more powerful than anyone here.</b>"
-        },
-        {
-          "type": "para",
-          "innerHTML": "You may not be able to it now, but the time takes its own time to make it happen. You may forward your clock but the whole world has its own clocks — trust on time."
-        },
-        {
-          "type": "para",
-          "innerHTML": "Send a thought out and let time take an action on it. And unknowingly you will realize after some time, everything is fine now. Everything settles down here either its thought or something else — some powers work for it."
-        },
-        {
-          "type": "para",
-          "innerHTML": "<b>You are not an actor in every film.</b>"
-        },
-        {
-          "type": "para",
-          "innerHTML": "Sit, chill, enjoy some stories or films. You are not an actor in every other story, everyone is playing alive biopic."
-        },
-        {
-          "type": "block-quote",
-          "innerHTML": "When you learn to watch and try to understand their biopics, you will make your biopic better either from mistakes or well played things"
-        },
-        {
-          "type": "para",
-          "innerHTML": "Let it go!"
-        },
-        {
-          "type": "para",
-          "innerHTML": "When it doesn’t work after what you could do — let it go. There is something best is yet to come. Expectations may kill your happiness, and stops positive vibes."
-        },
-        {
-          "type": "para",
-          "innerHTML": "Open your hands and ready to hug new challenges with all new hopes and aspirations. Take your medicine on time!"
-        },
-        {
-          "type": "para",
-          "innerHTML": "— Bhushan"
+            "id": "10",
+            "title": "Meeting past time over coffee — a thought",
+            "details": "Making life easier and cozy is always an amazed dream of everyone than\n      making it contentful and happy (intentionally and unintentionally),\n      though both are right in its own place.\n      But I feel marking it successful has a lot of inclination towards\n      'what you feel of your happiness and wins, and how you treat your defeats'.\n      Because a most significant difference of digesting both is trusting the progress you are\n      making....",
+            "routerLink": "/posts/meeting-past-time-over-coffee-—-a-thought",
+            "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "date": "20 July 2019 9:48 am",
+            "type": "TEXT_POST"
         }
-      ],
-      "date": "15 Jun 2019",
-      "type": "SMALL_IMAGE_TEXT"
-    },
-    {
-      "id": "6",
-      "imageUrl": "https://miro.medium.com/max/700/1*8yz3hkO3ynHV2qYGARynJg.jpeg",
-      "title": "Making website HTTPS with Certbot in a minute",
-      "routerLink": "/posts/making-website-https-with-certbot-in-a-minute",
-      "mediumLink": "https://medium.com/@MrBhushan/making-website-https-with-certbot-in-a-minute-e87b0b7280e?source=my-blog",
-      "isOverlayNeeded": true,
-      "category": [
-        "SSL"
-      ],
-      "tags": [
-        "certbot",
-        "ssl",
-        "Apache",
-        "Ssl Certificate"
-      ],
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "contents": [
-        {
-          "type": "para",
-          "innerHTML": "SSL is becoming a mandate and we will get it ready for your domain in a minute. There are many vendors (paid and free) but it’s always tough to install it manually. Let's make it happen just with a bot, yes Certbot. Make sure you have a Linux machine to run this. Let's start and fetch the Certbot from web and setup that quickly. I have created a script for this."
-        },
-        {
-          "type": "code",
-          "innerHTML": "wget -O — https://raw.githubusercontent.com/erBhushanPawar/rocking-shell/master/certbot-installer.sh"
-        },
-        {
-          "type": "para",
-          "innerHTML": "This script will setup required things on your machine as per Certbot documentations, <a href='https://certbot.eff.org/docs/install.html'>more details here</a>"
-        },
-        {
-          "type": "para",
-          "innerHTML": "Now let's run this script"
-        },
-        {
-          "type": "code",
-          "innerHTML": "sudo sh certbot-installer.sh yourdomain.com"
-        },
-        {
-          "type": "para",
-          "innerHTML": "Sudo is required because this script installs as root, you can also run using <b> sudo su</b>  by making yourself root, but that can be dangerous."
-        },
-        {
-          "type": "para",
-          "innerHTML": "This will ask a few questions to you like email just answer them."
-        },
-        {
-          "type": "para",
-          "innerHTML": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain."
-        },
-        {
-          "type": "para",
-          "innerHTML": "Happy SSL to you !"
-        }
-      ],
-      "date": "20 July 2019 9:48 am",
-      "type": "SMALL_IMAGE_TEXT",
-      "similarPosts": [
-        "/posts/making-spring-boot-/-node-js-services-https-with-certbot-for-free"
-      ]
-    },
-    {
-      "id": "7",
-      "imageUrl": "https://miro.medium.com/max/1000/1*oLuorn4QKBnWWC5rSKRZxQ.jpeg",
-      "title": "Making spring boot / Node JS services HTTPS with CertBot for free",
-      "routerLink": "/posts/making-spring-boot-/-node-js-services-https-with-certbot-for-free",
-      "mediumLink": "https://medium.com/@MrBhushan/making-services-https-with-certbot-for-free-7bfce027322e?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "category": [
-        "SSL"
-      ],
-      "tags": [
-        "certbot",
-        "ssl",
-        "Apache",
-        "Ssl Certificate"
-      ],
-      "date": "20 July 2019 9:48 am",
-      "type": "SMALL_IMAGE_TEXT"
-    },
-    {
-      "id": "8",
-      "imageUrl": "https://miro.medium.com/max/700/1*bzRsnzakR7O4RMbDfEZ1sA.jpeg",
-      "title": "Setup SSMTP on Ubuntu servers with crontab",
-      "routerLink": "/posts/setup-ssmtp-on-ubuntu-servers-with-crontab",
-      "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "20 July 2019 9:48 am",
-      "type": "IMAGE_OVERLAY"
-    },
-    {
-      "id": "9",
-      "imageUrl": "https://miro.medium.com/max/700/1*bzRsnzakR7O4RMbDfEZ1sA.jpeg",
-      "title": "The best life artist - you!",
-      "routerLink": "/posts/the-best-life-artist---you!",
-      "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "20 July 2019 9:48 am",
-      "type": "IMAGE_OVERLAY"
-    },
-    {
-      "id": "10",
-      "title": "Meeting past time over coffee — a thought",
-      "details": "Making life easier and cozy is always an amazed dream of everyone than\n      making it contentful and happy (intentionally and unintentionally),\n      though both are right in its own place.\n      But I feel marking it successful has a lot of inclination towards\n      \"what you feel of your happiness and wins, and how you treat your defeats\".\n      Because a most significant difference of digesting both is trusting the progress you are\n      making....",
-      "routerLink": "/posts/meeting-past-time-over-coffee-—-a-thought",
-      "mediumLink": "https://medium.com/@MrBhushan/setup-ssmtp-on-ubuntu-servers-with-crontab-9f7326d1e002?source=my-blog",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "date": "20 July 2019 9:48 am",
-      "type": "TEXT_POST"
-    }
-  ],
-  "courses": [
-    {
-      "id": "1",
-      "imageUrl": "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80",
-      "details": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like Google Assistant and Slack",
-      "title": "Rich message Business Chatbots in Angular 8 with Dialogflow",
-      "routerLink": "/courses/rich-message-business-chatbots-in-angular-8-with-dialogflow",
-      "udemyLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "isOverlayNeeded": true,
-      "status": {
-        "enrolled": 2038,
-        "rating": 3.5,
-        "comments": 8,
-        "lectures": 10
-      },
-      "type": "FULL_IMAGE_OVERLAY"
-    },
-    {
-      "id": "2",
-      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      "title": "Architect Scale-able Enterprise Application in Angular Part1",
-      "details": "Learn Angular 6-8 for large scale systems, configurations, service interceptors, data encryption and more",
-      "routerLink": "/courses/architect-scale-able-enterprise-application-in-angular-part1",
-      "udemyLink": "https://www.udemy.com/course/angular-6-developing-scale-able-enterprise-applications-part-1/",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "isOverlayNeeded": true,
-      "status": {
-        "enrolled": 1516,
-        "rating": 3.5,
-        "comments": 8,
-        "lectures": 10
-      },
-      "type": "FULL_IMAGE_OVERLAY"
-    },
-    {
-      "id": "3",
-      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      "title": "Build enterprise grade microservices with expressJs - part 1",
-      "details": "Learn how to write Restful Webservices in node JS, Mongoose JWT, configurations and subroutines with NODE",
-      "udemyLink": "https://www.udemy.com/course/restful-services-with-nodejs-enterprise-webservices-part-1/",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "isOverlayNeeded": true,
-      "status": {
-        "enrolled": 2038,
-        "rating": 3.9,
-        "comments": 8,
-        "lectures": 10
-      },
-      "type": "FULL_IMAGE_OVERLAY",
-      "routerLink": "/courses/build-enterprise-grade-microservices-with-expressjs---part-1"
-    },
-    {
-      "id": "4",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      "title": "RESTful services with NODEJS - Enterprise Webservices part 2",
-      "details": "I keep enhancing and focusing on robust + reliable application architecture.",
-      "routerLink": "/courses/restful-services-with-nodejs---enterprise-webservices-part-2",
-      "udemyLink": "https://www.udemy.com/course/restful-services-with-nodejs-enterprise-webservices-part-2/",
-      "author": {
-        "name": "Bhushan Pawar",
-        "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-        "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-        "phone": "tel:+919970905608",
-        "website": "https://erbhushanpawar.github.io",
-        "facebook": "https://facebook.com/bhushupawar"
-      },
-      "isOverlayNeeded": true,
-      "status": {
-        "enrolled": 6,
-        "rating": 3.9,
-        "comments": 8,
-        "lectures": 10
-      },
-      "type": "FULL_IMAGE_OVERLAY"
-    }
-  ],
-  "banner": {
-    "title": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like        Google Assistant and Slack",
-    "category": [
-      "Courses"
     ],
-    "image": "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80",
-    "udemyLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
-    "routerLink": "/courses/rich-message-business-chatbots-in-angular-8-with-dialogflow",
-    "author": {
-      "name": "Bhushan Pawar",
-      "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
-      "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
-      "phone": "tel:+919970905608",
-      "website": "https://erbhushanpawar.github.io",
-      "facebook": "https://facebook.com/bhushupawar"
+    "courses": [
+        {
+            "id": "1",
+            "imageUrl": "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80",
+            "details": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like Google Assistant and Slack",
+            "title": "Rich message Business Chatbots in Angular 8 with Dialogflow",
+            "routerLink": "/courses/rich-message-business-chatbots-in-angular-8-with-dialogflow",
+            "udemyLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "isOverlayNeeded": true,
+            "status": {
+                "enrolled": 2038,
+                "rating": 3.5,
+                "comments": 8,
+                "lectures": 10
+            },
+            "type": "FULL_IMAGE_OVERLAY"
+        },
+        {
+            "id": "2",
+            "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+            "title": "Architect Scale-able Enterprise Application in Angular Part1",
+            "details": "Learn Angular 6-8 for large scale systems, configurations, service interceptors, data encryption and more",
+            "routerLink": "/courses/architect-scale-able-enterprise-application-in-angular-part1",
+            "udemyLink": "https://www.udemy.com/course/angular-6-developing-scale-able-enterprise-applications-part-1/",
+            "readyImageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+            "category": [
+                "Courses"
+            ],
+            "contents": [
+                {
+                    "type": "title",
+                    "innerHTML": "Learn Angular 6-8 for large scale systems, configurations, service interceptors, data encryption and more"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "You will get understanding of dividing the code in different module to scale at large levels. In this course we will understand code and responsibility of files, making it easy to expand later. You will learn different aspects of using the different components like services, HTTP interceptors, local storage, encryption, on the fly cache, cache synchronisation, Push notification systems, binding the components in single layouts, layout structuring basics and much more."
+                },
+                {
+                    "type": "youtube",
+                    "youtubeLink": "https://www.youtube.com/embed/9m800KdhoaQ"
+                },
+                {
+                    "type": "para",
+                    "innerHTML": "Please note that this course mostly focus on business layer for Angular architecture, not UI based applications. We will make that in Part 2. I recommend to take this course to undestand next with clear understanding."
+                },
+                {
+                    "type": "cards",
+                    "cards": [
+                        {
+                            "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+                            "title": "1516 Students enrolled",
+                            "type": "COURSE_META"
+                        },
+                        {
+                            "imageUrl": "https://images.unsplash.com/photo-1532288744908-b37abee2ed71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+                            "title": "Average Rating of <u>3.5</u>",
+                            "type": "COURSE_META"
+                        },
+                        {
+                            "imageUrl": "https://images.unsplash.com/photo-1530811761207-8d9d22f0a141?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+                            "title": "8 Positive comments",
+                            "type": "COURSE_META"
+                        },
+                        {
+                            "imageUrl": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+                            "title": "Consists of 10 in depth lectures",
+                            "type": "COURSE_META"
+                        }
+                    ]
+                }
+            ],
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "isOverlayNeeded": true,
+            "status": {
+                "enrolled": 1516,
+                "rating": 3.5,
+                "comments": 8,
+                "lectures": 10
+            },
+            "type": "FULL_IMAGE_OVERLAY"
+        },
+        {
+            "id": "3",
+            "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+            "title": "Build enterprise grade microservices with expressJs - part 1",
+            "details": "Learn how to write Restful Webservices in node JS, Mongoose JWT, configurations and subroutines with NODE",
+            "udemyLink": "https://www.udemy.com/course/restful-services-with-nodejs-enterprise-webservices-part-1/",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "isOverlayNeeded": true,
+            "status": {
+                "enrolled": 2038,
+                "rating": 3.9,
+                "comments": 8,
+                "lectures": 10
+            },
+            "type": "FULL_IMAGE_OVERLAY",
+            "routerLink": "/courses/build-enterprise-grade-microservices-with-expressjs---part-1"
+        },
+        {
+            "id": "4",
+            "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "title": "RESTful services with NODEJS - Enterprise Webservices part 2",
+            "details": "I keep enhancing and focusing on robust + reliable application architecture.",
+            "routerLink": "/courses/restful-services-with-nodejs---enterprise-webservices-part-2",
+            "udemyLink": "https://www.udemy.com/course/restful-services-with-nodejs-enterprise-webservices-part-2/",
+            "author": {
+                "name": "Bhushan Pawar",
+                "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+                "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+                "phone": "tel:+919970905608",
+                "website": "https://erbhushanpawar.github.io",
+                "facebook": "https://facebook.com/bhushupawar"
+            },
+            "isOverlayNeeded": true,
+            "status": {
+                "enrolled": 6,
+                "rating": 3.9,
+                "comments": 8,
+                "lectures": 10
+            },
+            "type": "FULL_IMAGE_OVERLAY"
+        }
+    ],
+    "banner": {
+        "title": "Build your business chatbot with DialogFlow and angular 8 with rich support of messages like        Google Assistant and Slack",
+        "category": [
+            "Courses"
+        ],
+        "image": "https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1498&q=80",
+        "udemyLink": "https://www.udemy.com/course/business-rich-message-chatbots-in-angular-8-with-dialogflow/",
+        "routerLink": "/courses/rich-message-business-chatbots-in-angular-8-with-dialogflow",
+        "author": {
+            "name": "Bhushan Pawar",
+            "thumbnail": "https://lh3.googleusercontent.com/-1CKMKmJbFpk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdNmJl3zBuwo3jRkn1KB7eyfEkxFw.CMID/s196-c/photo.jpg",
+            "linkedIn": "https://www.linkedin.com/in/bhushan-pawar/",
+            "phone": "tel:+919970905608",
+            "website": "https://erbhushanpawar.github.io",
+            "facebook": "https://facebook.com/bhushupawar"
+        },
+        "date": "12 Jun 2019"
     },
-    "date": "12 Jun 2019"
-  },
-  "about": {
-    "title": "About Me",
-    "innerHTML": "Love to teach computers \"how to behave\".\n      <br/>\n      An entrepreneur from the heart and innovative by the mind, experiencing full stack development in multiple programming platforms. Try to quote and express me in the industry with learned and developed architectural designs and development of software products.\n      <br/>\n      Like to analyze and compose system designs, load balancing and algorithmic solutions to critical systems. Used to planning, evaluating and building of complex applications, execution of complete SDLC, STLC, Deployment on multiple environments.\n\n      Love to do integration across services, dependency injection, job schedulers, detection plus rescue services, auto-deploy programs and security algorithms. Experienced about Google, Facebook API integration in products for digital marketing platforms. Installation of server systems, web development and collaboration of it, transaction control with \"Redis\", \"Database Replication\", \"Linux\", \"ELK\". Had experience as team lead for portals solving \"manufacturing industry issues of user and things collaboration\" facing in web and powered by Java, MEAN stack with SAP integration.\n      <br/>\n      Currently working as an Application developer, passionate about Angular and helping other teams as SME & Angular core Team member within the organization to groom their knowledge and meet project architecture requirements and guidelines.\n\n      If you find interesting it would be my pleasure to hear from you. "
-  },
-  "comments": [
-    {
-      "postId": "6",
-      "postedOn": 1567254239018,
-      "name": "Bhushan",
-      "email": "er.mr.bhushan@gmail.com",
-      "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
-      "id": 1
+    "about": {
+        "title": "About Me",
+        "innerHTML": "Love to teach computers 'how to behave'.\n      <br/>\n      An entrepreneur from the heart and innovative by the mind, experiencing full stack development in multiple programming platforms. Try to quote and express me in the industry with learned and developed architectural designs and development of software products.\n      <br/>\n      Like to analyze and compose system designs, load balancing and algorithmic solutions to critical systems. Used to planning, evaluating and building of complex applications, execution of complete SDLC, STLC, Deployment on multiple environments.\n\n      Love to do integration across services, dependency injection, job schedulers, detection plus rescue services, auto-deploy programs and security algorithms. Experienced about Google, Facebook API integration in products for digital marketing platforms. Installation of server systems, web development and collaboration of it, transaction control with 'Redis', 'Database Replication', 'Linux', 'ELK'. Had experience as team lead for portals solving 'manufacturing industry issues of user and things collaboration' facing in web and powered by Java, MEAN stack with SAP integration.\n      <br/>\n      Currently working as an Application developer, passionate about Angular and helping other teams as SME & Angular core Team member within the organization to groom their knowledge and meet project architecture requirements and guidelines.\n\n      If you find interesting it would be my pleasure to hear from you. "
     },
-    {
-      "postId": "6",
-      "postedOn": 1566254239018,
-      "name": "Prasad",
-      "email": "er.mr.bhushan@gmail.com",
-      "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
-      "id": 1
-    },
-    {
-      "postId": "6",
-      "postedOn": 1567254139018,
-      "name": "Ankita",
-      "email": "er.mr.bhushan@gmail.com",
-      "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
-      "id": 1
-    },
-    {
-      "postId": "5",
-      "postedOn": 1567263342112,
-      "name": "Ankita",
-      "email": "ankita@gmail.com",
-      "commentText": "Very good article and I really like the way you explained",
-      "id": 2
-    }
-  ]
+    "comments": [
+        {
+            "postId": "6",
+            "postedOn": 1567254239018,
+            "name": "Bhushan",
+            "email": "er.mr.bhushan@gmail.com",
+            "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
+            "id": 1
+        },
+        {
+            "postId": "6",
+            "postedOn": 1566254239018,
+            "name": "Prasad",
+            "email": "er.mr.bhushan@gmail.com",
+            "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
+            "id": 1
+        },
+        {
+            "postId": "6",
+            "postedOn": 1567254139018,
+            "name": "Ankita",
+            "email": "er.mr.bhushan@gmail.com",
+            "commentText": "This should identify the installed HTTP server on your Linux server like Apache or nginx and will ask you whether you need to redirect or not. I would prefer auto redirect to HTTPS this will upgrade the traffic from HTTP to HTTPS for your domain.",
+            "id": 1
+        },
+        {
+            "postId": "5",
+            "postedOn": 1567263342112,
+            "name": "Ankita",
+            "email": "ankita@gmail.com",
+            "commentText": "Very good article and I really like the way you explained",
+            "id": 2
+        }
+    ]
 }

@@ -10,6 +10,11 @@ import { PostsModule } from './modules/posts.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MainHeaderComponent } from './components/shared/main-header/main-header.component';
 import { CourseComponent } from './components/course/course.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryService } from './services/in-memory.service';
+import { DalService } from './services/dal.service';
+import { CustomHttpService } from './services/custom-http.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,9 @@ import { CourseComponent } from './components/course/course.component';
     HttpClientModule,
     AppRoutingModule,
     SharedModule,
-    PostsModule
+    PostsModule,
+    FormsModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryService, { passThruUnknownUrl: true, rootPath: '/app', apiBase: 'app/' }),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -17,7 +17,10 @@ export class CommentsComponent implements OnInit, OnChanges {
   }
   postComment() {
     this.dal.postComment(this.comment).subscribe(x => {
-      console.log(x)
+      this.dal.getComments(this.postDetails.id).subscribe(y => {
+        console.log(x, y)
+      })
+
     })
 
 

@@ -1,0 +1,10 @@
+<div class="card card_default card_small_with_background grid-item">
+  <div class="overlay"></div>
+  <div class="card_background" [style.background-image]="'url(' + card.imageUrl + ')'">
+  </div>
+  <div class="card-body">
+    <div class="card-title card-title-small"><a [routerLink]="card.routerLink" [innerHTML]="card.title">
+      </a></div>
+
+  </div>
+</div>

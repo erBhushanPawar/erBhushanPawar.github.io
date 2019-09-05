@@ -9,7 +9,7 @@ export class CustomHttpService {
 
   constructor(private httpClient: HttpClient) { }
   public getReq(url, query?): Observable<any> {
-    return this.httpClient.get(`${url}${this.buildQuery(query)}`);
+    return this.httpClient.get(`${url}${this.buildQuery(query)}`, { headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' } });
   }
 
   postReq(url, payload, query?): Observable<any> {

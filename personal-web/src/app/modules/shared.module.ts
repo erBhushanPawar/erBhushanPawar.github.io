@@ -8,13 +8,18 @@ import { ShImageOverlayComponent } from '../components/shared/sh-image-overlay/s
 import { ShTextPostComponent } from '../components/shared/sh-text-post/sh-text-post.component';
 import { ShFullImageOverlayComponent } from '../components/shared/sh-full-image-overlay/sh-full-image-overlay.component';
 import { RouterModule } from '@angular/router';
+import { CommentsComponent } from '../components/shared/comments/comments.component';
+import { FormsModule } from '@angular/forms';
+import { SafePipe } from '../components/shared/safe.pipe';
+import { ShCourseMetaCardComponent } from '../components/shared/sh-course-meta-card/sh-course-meta-card.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
-  declarations: [ShFullBannerComponent, ShFullTextPostComponent, ShFullImageCardComponent, ShSmallImageTextComponent, ShImageOverlayComponent, ShTextPostComponent, ShFullImageOverlayComponent],
-  exports: [ShFullBannerComponent, ShFullTextPostComponent, ShFullImageCardComponent, ShSmallImageTextComponent, ShImageOverlayComponent, ShTextPostComponent, ShFullImageOverlayComponent]
+  declarations: [ShFullBannerComponent, ShFullTextPostComponent, ShFullImageCardComponent, ShSmallImageTextComponent, ShImageOverlayComponent, ShTextPostComponent, ShFullImageOverlayComponent, CommentsComponent, SafePipe, ShCourseMetaCardComponent],
+  exports: [ShFullBannerComponent, ShFullTextPostComponent, ShFullImageCardComponent, ShSmallImageTextComponent, ShImageOverlayComponent, ShTextPostComponent, ShFullImageOverlayComponent, CommentsComponent, SafePipe, ShCourseMetaCardComponent]
 })
 export class SharedModule { }
