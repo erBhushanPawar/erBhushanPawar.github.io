@@ -25,7 +25,7 @@ export class InMemoryService implements InMemoryDbService {
       }
     }
     console.log('>>>', reqInfo);
-    return db;
+    return db || { hello: 'i am up' };
 
   }
 
